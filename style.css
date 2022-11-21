@@ -1,0 +1,754 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: #DDD!important;
+    padding-top: 3rem;
+    padding-bottom: 6rem;
+}
+
+html {
+    font-size: x-large;
+}
+
+ul {
+    padding-left: 0!important;
+    list-style-type: none!important;
+}
+
+.tit {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.row {
+    background: #FFF;
+}
+
+img {
+    width: 280px;
+}
+
+.pdiv {
+    padding-top: 4.5rem;
+}
+
+
+.pi {
+    letter-spacing: 2.5px;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    font-weight: 700;
+    font-size: xx-large;
+}
+
+.ppi {
+    text-transform: capitalize;
+    font-family: 'Arial';
+    font-weight: 300;
+}
+
+.yel {
+    background-color: rgb(244,217,86);
+    opacity: 0.99;
+}
+
+.upp {
+    text-transform: uppercase;
+}
+
+.name {    
+    font-size: xx-large;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.info {
+    font-size: x-large;
+    font-weight: 500;
+}
+
+.pcont {
+    font-weight: 500;
+    font-size: larger;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    color: rgb(43,44,48)!important;
+}
+
+a {
+    text-decoration: none!important;
+    color: rgb(43,44,48)!important;
+    line-height: 2.5;
+}
+
+a:hover {
+    text-decoration: none!important;
+    color: rgb(255, 213, 0)!important;
+}
+
+a:visited {
+    text-decoration: none!important;
+    color: rgb(79,84,87)!important;
+}
+
+.pn::selection {
+    color: blue!important;
+}
+
+.up {
+    margin-top: -2rem!important;
+}
+
+.down {
+    margin-top: 2rem;
+}
+
+.mar {
+    margin-top: -2rem!important;
+    margin-bottom: 0rem!important;
+}
+
+.bgr {
+    color: white;
+    background-color: rgb(43,44,48);
+}
+
+.center {
+    text-align: center;
+}
+
+.cer {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(244,217,86);
+    position: relative;
+    left: -28px;
+    top: -14px;
+}
+
+.ln {
+    height: 1px;    
+    width: 80px!important;
+    background: black;
+    border: black solid 2px;
+    rotate: 90deg;
+    margin-top: 25px!important;
+    position: relative;
+    top: 25px;
+}
+
+.cer0 {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: rgb(244,217,86);
+    position: relative;
+    left: 7px;
+    top: 12px;
+}
+
+.mintit {
+    font-weight: 500;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0.4rem 0 2rem 0;
+    font-weight: 500;
+}
+
+.msh {
+    margin-bottom: 2rem;
+}
+.lnh>li {
+    display: block;
+    line-height: 2.5;
+}
+
+.hb {
+    font-weight: 700;
+}
+
+.ws {
+    word-spacing: 90px;
+}
+
+.lvl {
+    height: 1px;
+    width: 250px;
+    border: rgb(79,84,87) solid 5px;
+}
+
+.ar, 
+.en,
+.fr {
+    height: 1px;
+    border: rgb(244,217,86) solid 5px;
+    position: relative;
+    bottom: 5px;
+    right: 5px;
+}
+
+.ar {
+    width: 237.5px;
+}
+
+.en {
+    width: 212.5px;
+}
+
+.fr {
+    width: 175px;
+}
+
+.ylwc {
+    color: rgb(244,217,86);
+}
+
+.fra {
+    height: 1px;
+    border: rgb(79,84,87) solid 5px;
+    position: relative;
+    bottom: 0px;
+    right: 0px;
+    width: 250px;
+}
+
+html::-webkit-scrollbar {
+    width: 0.7rem;
+}
+
+html::-webkit-scrollbar-track {
+    background-color: rgb(43,44,48);
+}
+
+html::-webkit-scrollbar-thumb {
+    background-color: rgb(244,217,86);
+}
+
+@media ( min-width: 1200px) and ( max-width: 1400px) {    
+    img {
+        width: 240px;
+    }
+
+    .fra,
+    .lvl {
+        width: 200px;
+    }
+
+    .ar {
+        width: 190px;
+    }
+    
+    .en {
+        width: 170px;
+    }
+    
+    .fr {
+        width: 140px;
+    }
+
+    .ln {
+        top: 25px;
+    }
+
+    .cer {
+        top: -15px;
+    }
+
+    .cer0 {
+        top: 15px;
+        left: 8px;
+    }
+}
+
+@media ( min-width: 991px) and (max-width: 1200px) {    
+    img {
+        width: 200px;
+    }
+
+    .fra,
+    .lvl {
+        width: 150px;
+    }
+
+    .ar {
+        width: 142.5px;
+    }
+    
+    .en {
+        width: 127.5px;
+    }
+    
+    .fr {
+        width: 105px;
+    }
+
+    .prmd {
+        text-decoration: none!important;
+        margin: 1px!important;
+        padding-left: 15px!important;
+    }
+
+    .ws {
+        word-spacing: 15px;
+        padding-left: 15px!important;
+    }
+
+    .ln {
+        width: 87px!important;
+        top: 28px;
+    }
+
+    .cer {
+        top: -15px;
+    }
+
+    .cer0 {
+        top: 15px;
+        left: 10px;
+    }
+
+    .pdiv {
+        padding-top: 3rem;
+    }
+
+    li {
+        margin-bottom: 0.25rem!important;
+    }
+}
+
+@media ( min-width: 768px) and (max-width: 991px) {  
+    
+    img {
+        width: 150px;
+    }
+
+    .fra,
+    .lvl {
+        width: 125px;
+    }
+
+    .ar {
+        width: 118.75px;
+    }
+    
+    .en {
+        width: 106.25px;
+    }
+    
+    .fr {
+        width: 87.5px;
+    }
+    
+    .up {
+        margin-top: -1rem!important;
+    }
+
+    .prmd {
+        text-decoration: none!important;
+        margin: 1px!important;
+        padding-left: 5px!important;
+        font-size: large;
+    }
+
+    .ws {
+        word-spacing: 5px;
+        padding-left: 5px!important;
+    }
+
+    .wss {
+        word-spacing: 15px;
+        padding-left: 5px!important;
+    }
+
+    .ln {
+        width: 75px!important;
+        top: 22px;
+    }
+
+    .cer {
+        top: -15px;
+    }
+
+    .cer0 {    
+        top: 10px;
+        left: 5px;
+    }
+
+    .pdiv {
+        padding-top: 1.5rem;
+    }
+
+    .mch {
+        letter-spacing: 1px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: 700;
+        font-size: x-large;
+    }
+
+    .mf,
+    .info,
+    .pcont,
+    .ppi {
+        font-size: large!important;
+    }
+    
+    .name {
+        font-size: x-large;
+        letter-spacing: normal;
+    }
+}
+
+@media (max-width: 767px) {    
+    .mdis {
+        display: none;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    .fra,
+    .lvl {
+        width: 125px;
+    }
+
+    .ar {
+        width: 118.75px;
+    }
+    
+    .en {
+        width: 106.25px;
+    }
+    
+    .fr {
+        width: 87.5px;
+    }
+
+    .prmd {
+        text-decoration: none!important;
+        margin: 1px!important;
+        padding-left: 5px!important;
+        font-size: large;
+    }
+
+    .ws {
+        word-spacing: 5px;
+        padding-left: 5px!important;
+    }
+
+    .wss {
+        word-spacing: 15px;
+        padding-left: 5px!important;
+    }
+
+    .pdiv {
+        padding-top: 1.5rem;
+        max-width: 400px!important;
+        padding-bottom: 1rem;
+    }
+
+    .wt {
+        background: #FFF;
+        padding: 18px 0 0 0!important;
+        margin-top: -20px!important;
+    }
+
+    .mft {
+        width: fit-content!important;
+    }
+
+    .mps {
+        position: relative;
+    }
+
+    .mcd {
+        max-width: min-content!important;
+    }
+
+    .mar {
+        margin-top: -0.75rem!important;
+        max-width: 150px!important;
+    }
+
+    .mars {
+        margin-top: 0!important;
+        max-width: 150px!important;
+    }
+
+    .down {
+        margin-top: 0.5rem;
+    }
+
+    .mch {
+        letter-spacing: 1px;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: 700;
+        font-size: large;
+    }
+
+    .rpd {
+        padding: 0!important;
+    }
+
+    .rpl {
+        padding-left: 5px!important;
+    }
+    
+    .mf,
+    .info,
+    .pcont,
+    .ppi,
+    .prmd {
+        font-size: medium!important;
+    }
+
+    .mdn {
+        display: none;
+    }
+    
+    .name {
+        font-size: large;
+        letter-spacing: normal;
+    }
+
+    .piw,
+    .pib {
+        letter-spacing: normal;
+        font-family: 'Arial Narrow Bold', sans-serif;
+        font-weight: 700;
+    }
+
+    .piw {
+        font-size: x-large;
+    }
+
+    .pib {
+        font-size: large;
+    }
+
+    .pis {
+        font-size: large!important;
+        font-weight: 600;
+    }
+
+    .year,
+    .mfs {
+        font-weight: 700;
+        font-size: large;
+    }
+    
+
+    .ln {
+        width: 103px!important;
+        top: 35px;
+    }
+
+    .cer {
+        top: -15px;
+    }
+
+    .cer0 {    
+        top: 0;
+        left: 0;
+    }
+
+    .rprl {
+        padding-right: 0!important;
+        padding-left: 0!important;
+    }
+}
+
+@media  (max-width: 536px) {    
+    .pdiv {
+        padding-top: 0rem;
+        max-width: 300px!important;
+        padding-bottom: 1rem;
+    }
+
+    .hb {
+        font-size: 20px;
+    }
+
+    .msz {
+        font-size: 15px!important;
+    }
+
+    .mfs {
+        font-size: 12px!important;
+    }
+
+    .msw {
+        max-width: 350px!important;
+    }
+}
+
+@media  (max-width: 460px) {    
+    .ln {
+        left: -32px;
+    }
+
+    .cer0 {
+        left: -33px;
+    }
+
+    .msw {
+        max-width: 275px!important;
+    }
+
+    .medu {
+        margin-left: -60px;
+    }
+
+    .ppi {
+        font-size: 11px!important;
+    }
+
+    .mpd {
+        padding: 0 2px!important;
+    }
+
+    .rmpd {
+        padding: 0!important;
+    }
+
+    .msize {
+        max-width: 260px!important;
+    }
+
+    .up {
+        margin-top: -1rem!important;
+    }
+
+    .info {
+        font-size: 12px!important;
+    }
+}
+
+@media  (max-width: 400px) { 
+    .msize {
+        max-width: 200px!important;
+    }
+
+    .pcont {
+        font-size: 12px!important;
+    }
+
+    .piw {
+        font-size: large!important;
+    }
+
+    .year {
+        font-size: 15px!important;
+    }
+
+    .rmpad {
+        padding: 0!important;
+    }
+
+    .ln {
+        top: 30px!important;
+    }
+
+    .cer {
+        width: 20px;
+        height: 20px;
+        left: -25px;
+        top: -10px;
+    }
+
+    .cer0 {
+        width: 20px;
+        height: 20px;
+        left: -15px;
+        top: 2px;
+    }
+
+    .mmar {
+        margin-left: 20px;
+    }
+
+    .lnh>li {
+        font-size: 16px;
+    }
+
+    .mfs {
+        font-size: 10px!important;
+    }
+}
+
+@media  (max-width: 355px) { 
+    .rmpad {
+        padding: 0!important;
+    }
+
+    .msw {
+        max-width: 180px!important;
+    }
+
+    .name {
+        font-size: 16px!important;
+    }
+
+    .info {
+        font-size: 10px!important;
+    }
+
+    .mar {
+        max-width: 110px!important;
+        padding: 0!important;
+    }
+
+    .prmd {
+        font-size: 12px!important;
+    }
+
+    .fra,
+    .lvl {
+        width: 100px;
+    }
+
+    .ar {
+        width: 95px;
+    }
+    
+    .en {
+        width: 85px;
+    }
+    
+    .fr {
+        width: 70px;
+    }
+
+    .year,
+    .pcont,
+    .ppi {
+        font-size: 10px!important;
+        margin-left: 5px!important;
+    }
+
+    .mmar{
+        margin-left: 0px!important;
+    }
+
+    .y2 {
+        margin-left: -15px!important;
+    }
+
+    .mfs {
+        font-size: 7px!important;
+    }
+
+    .msz,
+    .lnh>li {
+        font-size: 12px!important;
+    }
+
+    .msize {
+        max-width: 180px!important;
+    }
+
+    .cer0 {
+        left: -35px;
+    } 
+}
